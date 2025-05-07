@@ -9,6 +9,7 @@ public class Test {
         System.out.println("I am a billionaire, yes");
         System.out.println("I am earning 5 lacs a month, through investments");
         System.out.println("I am a billionaire, from stock market i am a student of warren buffet.");
+        System.out.println("I am working as a java AI Engineer in DUBAI: ");
 
     }
 }
