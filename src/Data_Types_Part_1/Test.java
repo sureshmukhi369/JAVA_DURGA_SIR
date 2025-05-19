@@ -9,7 +9,10 @@ package Data_Types_Part_1;
   because several oop feature are not satisfied by java 
   like (operator overloading , multiple inheritance etc...)
   -> Moreover we are depending on Primitive dataTypes which are non objects
-* -> 
+* 
+
+
+-> 
 * */
 
 public class Test {
@@ -23,6 +26,13 @@ public class Test {
     }
 }
 
+
+
+
+// Byte is the best choice if you want 
+// to handle data in terms of streams either from the 
+// file or from the network (file supported form is byte)
+
 class B {
   public static void main(String[] args) {
     // byte a = 128;
@@ -30,3 +40,20 @@ class B {
     System.out.println(a);
   }
 }
+
+/*
+ * shor -> this is most rarely used data type in java.
+ * Size:- 2 bytes (16 bits)
+ * Range:- -2 15 to 2 15 - 1
+ * 
+ * [-32768 to 32767]
+ */
+
+
+ class c {
+  public static void main(String[] args) {
+    short s = 3275; // Compiletime Error:- Possible Loss of Precision
+    short b = ture;
+    System.out.println(b);
+  }
+ }
