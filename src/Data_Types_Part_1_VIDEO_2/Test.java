@@ -36,8 +36,8 @@ public class Test {
 class B {
   public static void main(String[] args) {
     // byte a = 128;
-    byte a = 10.5;
-    System.out.println(a);
+//    byte a = 10.5;
+    System.out.println();
   }
 }
 
@@ -53,7 +53,7 @@ class B {
  class c {
   public static void main(String[] args) {
     // short s = 3275; // Compiletime Error:- Possible Loss of Precision
-    short b = true;
-    System.out.println(b);
+//    short b = true;
+    System.out.println();
   }
  }
