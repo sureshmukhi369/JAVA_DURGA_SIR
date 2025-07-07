@@ -1,0 +1,15 @@
+package Super_Basics_for_loop_Problems;
+
+public class printEvenNumbers {
+    public static void main(String[] args) {
+        int num = 10;
+        System.out.println("Print the even numbers from 1 to " + num);
+        System.out.println();
+
+        for(int i = 1; i <= num; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}

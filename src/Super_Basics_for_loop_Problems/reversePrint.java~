@@ -1,0 +1,13 @@
+package Super_Basics_for_loop_Problems;
+
+public class reversePrint {
+    public static void main(String[] args) {
+        int num = 5;
+        System.out.println("Print the numbers from 1 to " + num);
+        System.out.println();
+
+        for (int i = num; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+    }
+}
