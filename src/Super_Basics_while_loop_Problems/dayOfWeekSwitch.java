@@ -6,17 +6,17 @@ public class dayOfWeekSwitch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int day = scanner.nextInt();
-        System.out.println("Today is: ");
+        System.out.print("Today is: ");
 
         switch (day) {
-            case 1: System.out.println("Monday"); break;
-            case 2: System.out.println("Tuesday"); break;
-            case 3: System.out.println("Wednesday"); break;
-            case 4: System.out.println("Thurday"); break;
-            case 5: System.out.println("Friday"); break;
-            case 6: System.out.println("Saturday"); break;
-            case 7: System.out.println("Sugnated"); break;
-            default: System.out.println("invalid");
+            case 1: System.out.println("MONDAY"); break;
+            case 2: System.out.println("TUESDAY"); break;
+            case 3: System.out.println("WEDNESDAY"); break;
+            case 4: System.out.println("THURSDAY"); break;
+            case 5: System.out.println("FRIDAY"); break;
+            case 6: System.out.println("SATURDAY"); break;
+            case 7: System.out.println("SUNDAY"); break;
+            default: System.out.println("INVALID DAY");
         }
     }
 }

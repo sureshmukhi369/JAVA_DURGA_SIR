@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class monthInAYear {
     public static void main(String[] args) {
-        System.out.println("This month is: ");
         Scanner scanner = new Scanner(System.in);
         int month = scanner.nextInt();
+        System.out.print("This month is: ");
 
         switch (month) {
             case 1: System.out.println("JANUARY"); break;
