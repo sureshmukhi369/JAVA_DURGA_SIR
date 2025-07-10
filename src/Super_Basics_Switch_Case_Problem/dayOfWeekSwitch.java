@@ -1,4 +1,4 @@
-package Super_Basics_while_loop_Problems;
+package Super_Basics_Switch_Case_Problem;
 
 import java.util.Scanner;
 
