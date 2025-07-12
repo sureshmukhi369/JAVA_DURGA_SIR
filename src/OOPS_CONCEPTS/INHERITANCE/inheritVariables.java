@@ -1,4 +1,4 @@
-package OOPS_CONCEPTS;
+package OOPS_CONCEPTS.inher.OOPS_CONCEPTS.Inheritance;
 
 public class inheritVariables {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OOPS_CONCEPTS;
+package OOPS_CONCEPTS.OOPS_CONCEPTS.INHERITANCE;
 
 public class inheritanceExtraMethods {
     public static void main(String[] args) {
