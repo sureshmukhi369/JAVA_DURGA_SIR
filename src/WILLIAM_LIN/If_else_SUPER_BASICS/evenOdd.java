@@ -1,0 +1,20 @@
+package WILLIAM_LIN.If_else_SUPER_BASICS;
+
+
+import java.util.Scanner;
+
+public class evenOdd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your Number: ");
+        int num = sc.nextInt();
+
+        if (num % 2 == 0) {
+            System.out.println("The number is Even.");
+        } else {
+            System.out.println("The number is Odd.");
+        }
+
+        sc.close();
+    }
+}
