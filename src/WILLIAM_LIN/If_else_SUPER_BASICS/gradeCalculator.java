@@ -4,9 +4,11 @@ package WILLIAM_LIN.If_else_SUPER_BASICS;
 import java.util.Scanner;
 public class gradeCalculator {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
         System.out.print("Enter your marks: ");
-        int marks = sc.nextInt();
+//        int marks = sc.nextInt();
+
+        int marks = new Scanner(System.in).nextInt();
 
         if (marks > 100 || marks < 0) {
             System.out.println("Invalid makrs");

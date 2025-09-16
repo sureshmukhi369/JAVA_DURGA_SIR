@@ -11,7 +11,7 @@ public class gradeCalculator {
         if (marks > 100 || marks < 0) {
             System.out.println("Invalid makrs");
         } else if (marks >= 90) {
-            System.out.println("A Grade")
+            System.out.println("A Grade");
         } else if (marks >= 80) {
             System.out.println("B Grade");
         } else if (marks >= 70) {
