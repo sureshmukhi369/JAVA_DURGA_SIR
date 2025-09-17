@@ -1,4 +1,4 @@
-package WILLIAM_LIN.If_else_SUPER_BASICS;
+package WILLIAM_LIN.If_else_SUPER_BASICS_50;
 
 
 import java.util.Scanner;
