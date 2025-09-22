@@ -1,9 +1,9 @@
-package WILLIAM_LIN.If_else_SUPER_BASICS_50;
+package WILLIAM_LIN.If_else_SUPER_BASICS_50.EVEN_ODD_CHECK;
 
 
 import java.util.Scanner;
 
-public class evenOdd {
+public class checkEvenOdd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your Number: ");
