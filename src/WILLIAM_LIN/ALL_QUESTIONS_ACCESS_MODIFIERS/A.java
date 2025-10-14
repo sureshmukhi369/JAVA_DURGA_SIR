@@ -1,0 +1,4 @@
+package WILLIAM_LIN.ALL_QUESTIONS_ACCESS_MODIFIERS;
+
+public class A {
+}
