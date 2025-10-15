@@ -1,4 +1,4 @@
-package WILLIAM_LIN.ARRAYS_ALL_QUESTIONS.ARRAY_SUPER_BASICS_30;
+package WILLIAM_LIN.ARRAYS_ALL_QUESTIONS.ARRAY_SUPER_BASICS_30.INTEGER_PRINT_ARRAY_ELEMENTS;
 
 public class PrintArrayElements {
     public static void main(String[] args) {
