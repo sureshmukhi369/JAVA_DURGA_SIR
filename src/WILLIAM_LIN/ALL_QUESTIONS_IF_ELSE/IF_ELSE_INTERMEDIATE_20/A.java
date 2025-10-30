@@ -1,0 +1,4 @@
+package WILLIAM_LIN.ALL_QUESTIONS_IF_ELSE.IF_ELSE_INTERMEDIATE_20;
+
+public class A {
+}
