@@ -20,6 +20,7 @@ System.out.print("Enter the basic salary: ");
 int basicSalary = scanner.nextInt();
 double grossSalary = calculateGrossSalary(basicSalary);
 System.out.println("Gross Salary: " + grossSalary);
+
     }
 
     public static double calculateGrossSalary(int basicSalary) {
