@@ -3,8 +3,17 @@ package WILLIAM_LIN.ALL_QUESTIONS_IF_ELSE.IF_ELSE_SUPER_BASICS_50.CHECK_SIGN_POS
 import java.util.Scanner;
 public class numberSignChecker {
     public static void main(String[] args) {
-       System.out.print("Enter your number: ");
-       int number = new Scanner(System.in).nextInt();
+       Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+
+        if (!scanner.hasNextInt()) {
+            System.out.println("Invalid input. Please enter an integer.");
+            scanner.close();
+            return;
+        }
+
+        int number = scanner.nextInt();
+       scanner.close();
        System.out.print(checkNumber(number));
     }
 
